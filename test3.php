@@ -1,0 +1,1 @@
+<?php require 'c:/xampp/htdocs/student_registration/config/db.php'; echo $pdo->query("SELECT COUNT(*) FROM students")->fetchColumn(); echo " "; echo $pdo->query("SELECT COUNT(*) FROM users")->fetchColumn(); ?>
